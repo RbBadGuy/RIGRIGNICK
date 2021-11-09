@@ -1,6 +1,7 @@
 module.exports = {
   
   name: "selldiamond",
+  aliases: ['selldm'],
   code: `
 $setGlobalUserVar[cash;$sum[$getGlobalUserVar[cash];1000]]
 $setGlobalUserVar[diamond;$sub[$getGlobalUserVar[diamond];1]]

@@ -7,11 +7,6 @@ prefix: "$getServerVar[prefix]"
 })
  
 //bot status
-bot.status({
-  text: process.env.BOT_ACTIVITY_TEXT,
-  type: process.env.BOT_ACTIVITY_TYPE,
-  time: 12
-})
  
 bot.onMessage()
 
@@ -51,8 +46,8 @@ code: command.code
 //help command here
 bot.command({
 
-name: "help",
-code: `$title[$userTag[$clientID] HELP MENU]
+name: "ehelp",
+code: `$title[$userTag[$clientID] Economy Help Menu]
 
 $description[**$getServerVar[prefix]help** - This!
 **$getServerVar[prefix]balance** - Your balance.
@@ -68,7 +63,7 @@ $description[**$getServerVar[prefix]help** - This!
 **$getServerVar[prefix]give** - Give money to someone.
 **$getServerVar[prefix]shop** - Shop. (more command for buying, eating, etc in here!)]
 
-$color[RANDOM]
-$footer[SOURCE CODE FROM Jastin Ch in Youtube || https://youtube.com/c/JastinCh || Full Made By JastinCh!]
+$color[00c8de]
+$footer[Commands]
 $addTimestamp`
 })

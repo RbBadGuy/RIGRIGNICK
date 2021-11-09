@@ -1,6 +1,7 @@
 module.exports = {
   
   name: "buy-pizza",
+  aliases: ['buy-pza'],
   code: `
 $description[**@$username Success in buying a Pizza🍕 !!**]
 $setGlobalUserVar[cash;$sub[$getGlobalUserVar[cash];95]]
