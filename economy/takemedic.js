@@ -1,6 +1,7 @@
 module.exports = {
   
   name: "take-medicine",
+    aliases: ['take-mi'],
   code: `
 $description[.....]
 $setGlobalUserVar[hm;$sub[$getGlobalUserVar[hm];1]]

@@ -1,7 +1,7 @@
 module.exports = {
   
   name: "shop",
-  code: `$author[Shop.;$userAvatar[797794333759766528]] 
+  code: `$author[Shop.;$userAvatar[899539603806093322]] 
 $description[**> Necessity:**
 
 Pizza🍕
@@ -33,7 +33,7 @@ Fuel⛽
 House🏡
 **$getServerVar[prefix]buy-house** = $2.000.000
 ]
-$color[RANDOM]
-$footer[SOURCE CODE FROM Jastin Ch in Youtube || https://youtube.com/c/JastinCh || Full Made By JastinCh!]
+$color[00c8de]
+$footer[/Menu/Item/Necessity/
 $addTimestamp`
 }

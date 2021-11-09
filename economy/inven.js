@@ -1,6 +1,7 @@
 module.exports = {
   
   name: "inven",
+  aliases: ['inventory'],
   code: `$title[Your Inventory $username]
 $thumbnail[$userAvatar[$authorID]]
 $description[**❤Health**
@@ -21,7 +22,7 @@ $description[**❤Health**
 
 **⛽Fuel:**
 **Fuel of Car**: $getGlobalUserVar[fuel]L]
-$color[RANDOM]
-$footer[SOURCE CODE FROM Jastin Ch in Youtube || https://youtube.com/c/JastinCh || Full Made By JastinCh!]
+$color[00c8de]
+$footer[/Menu /Health/ Inventory/]
 $addTimestamp`
 }

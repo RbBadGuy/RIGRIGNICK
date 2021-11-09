@@ -1,6 +1,7 @@
 module.exports = {
   
   name: "daily",
+  aliases: ['dsal'],
   code: `
 $title[Daily Salary.]
 $thumbnail[$userAvatar[$authorID]]
