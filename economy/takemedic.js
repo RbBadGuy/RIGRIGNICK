@@ -3,7 +3,7 @@ module.exports = {
   name: "take-medicine",
     aliases: ['take-mi'],
   code: `
-$description[.....]
+$description[You Took Medic Good]
 $setGlobalUserVar[hm;$sub[$getGlobalUserVar[hm];1]]
 $setGlobalUserVar[health;$sum[$getGlobalUserVar[health];9]]
 $setGlobalUserVar[hungry;$sum[$getGlobalUserVar[hungry];4]]

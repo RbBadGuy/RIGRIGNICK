@@ -11,6 +11,7 @@ $description[**❤Health**
 
 **🗃Inventory:**
 **Pizza**: $getGlobalUserVar[pizza] 🍕
+**apple**: $getGlobalUserVar[apple] 🍎
 **Drink**: $getGlobalUserVar[drink] 🥛
 **Health Medicine**: $getGlobalUserVar[hm]
 **Fish**: $getGlobalUserVar[fish] Kg

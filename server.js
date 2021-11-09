@@ -26,6 +26,7 @@ bot.variables({
  hungry:"100",
  thirsty:"100",
  pizza:"0",
+ apple:"0",
  drink:"0",
  hm:"0",
  daily: process.env.DAILY_SALARY,

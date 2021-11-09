@@ -8,6 +8,10 @@ Pizza🍕
 **$getServerVar[prefix]buy-pizza** = $95
 **$getServerVar[prefix]eat-pizza** = If you are hungry, eat it. +2 Health, -6 Hungry, -4 Thirsty.
 
+Apple🍎
+**$getServerVar[prefix]buy-aplle** = $95
+**$getServerVar[prefix]eat-apple** = If you are hungry,thirst, eat it. +9 Health, +10 Hungry, +10 Thirsty.
+
 Drink🥛
 **$getServerVar[prefix]buy-drink** = $45
 **$getServerVar[prefix]drink** = If you are thirsty, drink it. +3 Health, -2 Hungry, -5 Thirsty.
@@ -24,13 +28,13 @@ Fishing equipment🎣
 Laptop🖱
 **$getServerVar[prefix]buy-laptop** = $13.000
 
-Car🚗
+Car🚗 coming soon
 **$getServerVar[prefix]buy-car** = $65.000
 
-Fuel⛽
+Fuel⛽ coming soon
 **$getServerVar[prefix]buy-fuel** = $2500/1L
 
-House🏡
+House🏡 coming soon
 **$getServerVar[prefix]buy-house** = $2.000.000
 ]
 $color[00c8de]
